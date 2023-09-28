@@ -43,9 +43,7 @@ for mesh_tag in mesh_tags:
     shutil.copyfile(mesh_path, new_mesh_path)
 
     # Update the filename attribute of the mesh tag to point to the new location of the mesh file
-    mesh_tag.attrib["filename"] = (
-        "file://" + remote_url + os.path.relpath(new_mesh_path, work_dir)
-    )
+    mesh_tag.attrib["filename"] = remote_url + os.path.relpath(new_mesh_path, work_dir)
 
 # Write the updated URDF file to disk
 tree.write(remote_urdf_path)
