@@ -47,8 +47,5 @@ for mesh_tag in mesh_tags:
         "file://" + remote_url + os.path.relpath(new_mesh_path, work_dir)
     )
 
-    print("Updated mesh path: {}".format(mesh_tag.attrib["filename"]))
-
-
 # Write the updated URDF file to disk
 tree.write(remote_urdf_path)
