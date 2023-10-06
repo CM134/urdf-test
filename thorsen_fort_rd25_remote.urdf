@@ -205,7 +205,7 @@
     <collision name="nominal_tractor_camera_mount_front_collision">
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
+        <mesh filename="package://sensor_description/models/arkvision_arkcam_mini/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual>
@@ -265,7 +265,7 @@
     <collision name="nominal_tractor_camera_mount_rear_collision">
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
+        <mesh filename="package://sensor_description/models/arkvision_arkcam_mini/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual>
@@ -465,6 +465,18 @@
     <child link="tractor_radar_front_right" />
     <origin rpy="0 0 0" xyz="0 0 0" />
   </joint>
+  <link name="tractor_radar_saferadar">
+    <inertial>
+      <mass value="0.0005" />
+      <origin rpy=" 0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+  </link>
+  <joint name="base_link_tractor_radar_saferadar_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="tractor_radar_saferadar" />
+    <origin rpy="0 0 0" xyz="0.98 0 1.175" />
+  </joint>
   <link name="tractor_gnss_front_link">
     <inertial>
       <mass value="0.0005" />
@@ -519,6 +531,12 @@
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
     </inertial>
+    <collision>
+      <origin rpy=" 0 0 0" xyz="0 0 0" />
+      <geometry>
+        <box size="0.05 0.05 0.05" />
+      </geometry>
+    </collision>
     <visual>
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
