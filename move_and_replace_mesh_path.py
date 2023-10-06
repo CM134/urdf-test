@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 # Define the paths to the URDF file and the meshes directory
 work_dir = os.path.dirname(os.path.realpath(__file__))
 
-urdf_path = os.path.join(work_dir, "john_deere.urdf")
+urdf_path = os.path.join(work_dir, "thorsen_fort_rd25.urdf")
 meshes_dir = os.path.join(work_dir, "meshes")
 
 
