@@ -9,8 +9,12 @@ from launch_ros.actions import Node
 def generate_launch_description():
     use_sim_time = LaunchConfiguration("use_sim_time", default="false")
 
-    urdf_file_name = "thorsen_fort_rd25_remote.urdf"
-    urdf = os.path.join(os.path.dirname(os.path.abspath(__file__)), urdf_file_name)
+    urdf_file_name = (
+        "lemken_john_deere_6r_SN-002-0001_lemken_karat_10_SN-003-0003_remote.urdf"
+    )
+    urdf = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "urdf", urdf_file_name
+    )
 
     with open(urdf, "r") as infp:
         robot_desc = infp.read()
@@ -44,7 +48,7 @@ def generate_launch_description():
                         "source_list": ["/hitch_joint_state"],
                     }
                 ],
-                arguments=["--ros-args", "--log-level", "ERROR"],
+                arguments=["--ros-args", "--log-level", "INFO"],
             ),
         ]
     )
