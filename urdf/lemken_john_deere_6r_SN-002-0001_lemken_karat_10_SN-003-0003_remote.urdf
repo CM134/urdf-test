@@ -46,7 +46,7 @@
     <visual>
       <origin rpy="0 0 1.57079633" xyz="1.22 0.0 -0.945" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/JD6M.dae?ref_type=heads" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/JD6M.dae" />
       </geometry>
       <material name="grey">
         <color rgba="0.2 0.2 0.2 1.0" />
@@ -55,7 +55,7 @@
     <collision>
       <origin rpy="0 0 1.57079633" xyz="1.22 0.0 -0.945" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/JD6M.dae?ref_type=heads" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/JD6M.dae" />
       </geometry>
     </collision>
     <inertial>
@@ -159,7 +159,7 @@
     <visual>
       <origin rpy="1.57079633 0 0" xyz="0 -0.0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/front_wheel.dae?ref_type=heads" scale="1.9819444444444445 2.938888888888889 1.9819444444444445" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/front_wheel.dae" scale="1.9819444444444445 2.938888888888889 1.9819444444444445" />
       </geometry>
     </visual>
     <collision>
@@ -257,7 +257,7 @@
     <visual>
       <origin rpy="-1.57079633 0 0" xyz="0 0.0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/front_wheel.dae?ref_type=heads" scale="1.9819444444444445 2.938888888888889 1.9819444444444445" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/front_wheel.dae" scale="1.9819444444444445 2.938888888888889 1.9819444444444445" />
       </geometry>
     </visual>
     <collision>
@@ -331,7 +331,7 @@
     <visual>
       <origin rpy="1.57079633 0 0" xyz="0 -0.0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/rear_wheel.dae?ref_type=heads" scale="2.5 3.588888888888889 2.5" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/rear_wheel.dae" scale="2.5 3.588888888888889 2.5" />
       </geometry>
     </visual>
     <collision>
@@ -405,7 +405,7 @@
     <visual>
       <origin rpy="-1.57079633 0 0" xyz="0 0.0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/rear_wheel.dae?ref_type=heads" scale="2.5 3.588888888888889 2.5" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/rear_wheel.dae" scale="2.5 3.588888888888889 2.5" />
       </geometry>
     </visual>
     <collision>
@@ -929,7 +929,7 @@
     <visual name="ark_cam_mini_bracket_front_visual">
       <origin rpy="1.57079 0 1.57079" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_bracket_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_bracket_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
     <collision name="ark_cam_mini_bracket_front_collision">
@@ -979,7 +979,7 @@
     <visual name="ark_cam_mini_bracket_rear_visual">
       <origin rpy="1.57079 0 1.57079" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_bracket_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_bracket_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
     <collision name="ark_cam_mini_bracket_rear_collision">
@@ -1009,7 +1009,7 @@
     <visual>
       <origin rpy="1.5708 0 -1.5708" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/OS0.dae?ref_type=heads" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/OS0.dae" />
       </geometry>
     </visual>
     <collision>
@@ -1160,7 +1160,7 @@
     <visual>
       <origin rpy="1.5708 0 -1.5708" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/OS0.dae?ref_type=heads" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/OS0.dae" />
       </geometry>
     </visual>
     <collision>
@@ -1310,13 +1310,13 @@
     <collision name="nominal_tractor_camera_mount_front_collision">
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -1430,7 +1430,7 @@
     <visual>
       <origin rpy="1.57079 0 1.57079" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_bracket_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_bracket_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -1448,13 +1448,13 @@
     <collision name="nominal_tractor_camera_mount_middle_right_collision">
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -1622,7 +1622,7 @@
     <visual>
       <origin rpy="1.57079 0 1.57079" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_bracket_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_bracket_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -1640,13 +1640,13 @@
     <collision name="nominal_tractor_camera_mount_middle_left_collision">
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -1754,13 +1754,13 @@
     <collision name="nominal_tractor_camera_mount_rear_collision">
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -1876,7 +1876,7 @@
       <origin rpy=" 0 1.57079 -1.57079" xyz="0 -0.002 0" />
       <geometry>
         
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/smartmicro_type153.dae?ref_type=heads" scale="1.0 1.0 1.0" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/smartmicro_type153.dae" scale="1.0 1.0 1.0" />
       </geometry>
     </visual>
   </link>
@@ -1966,7 +1966,7 @@
       <origin rpy=" 0 1.57079 -1.57079" xyz="0 -0.002 0" />
       <geometry>
         
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/smartmicro_type153.dae?ref_type=heads" scale="1.0 1.0 1.0" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/smartmicro_type153.dae" scale="1.0 1.0 1.0" />
       </geometry>
     </visual>
   </link>
@@ -2056,7 +2056,7 @@
       <origin rpy=" 0 1.57079 -1.57079" xyz="0 -0.002 0" />
       <geometry>
         
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/smartmicro_type153.dae?ref_type=heads" scale="1.0 1.0 1.0" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/smartmicro_type153.dae" scale="1.0 1.0 1.0" />
       </geometry>
     </visual>
   </link>
@@ -2146,7 +2146,7 @@
       <origin rpy=" 0 1.57079 -1.57079" xyz="0 -0.002 0" />
       <geometry>
         
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/smartmicro_type153.dae?ref_type=heads" scale="1.0 1.0 1.0" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/smartmicro_type153.dae" scale="1.0 1.0 1.0" />
       </geometry>
     </visual>
   </link>
@@ -2234,7 +2234,7 @@
     <visual>
       <origin rpy="1.57 0 -1.57" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/smart7.stl?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/smart7.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -2338,7 +2338,7 @@
     <visual>
       <origin rpy="1.57 0 -1.57" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/smart7.stl?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/smart7.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -2442,7 +2442,7 @@
     <visual>
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/generic_gnss.dae?ref_type=heads" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/generic_gnss.dae" />
       </geometry>
     </visual>
   </link>
@@ -2632,13 +2632,13 @@
     <visual>
       <origin rpy="0 0 1.57" xyz="-0.6 -1.13 -0.85" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/lemken_karat_10.stl?ref_type=heads" scale="1.0 1.0 1.0" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/lemken_karat_10.stl" scale="1.0 1.0 1.0" />
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 1.57" xyz="-0.6 -1.13 -0.85" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/lemken_karat_10_collision.stl?ref_type=heads" scale="1.0 1.0 1.0" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/lemken_karat_10_collision.stl" scale="1.0 1.0 1.0" />
       </geometry>
     </collision>
     <inertial>
@@ -2765,7 +2765,7 @@
     <visual>
       <origin rpy="-1.570796327 0 1.570796327" xyz="0.007 -0.0485 0.0175" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/radar_camera_bracket_nut.stl?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/radar_camera_bracket_nut.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -2789,7 +2789,7 @@
     <visual>
       <origin rpy="1.57079 0 1.57079" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_bracket_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_bracket_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -2838,7 +2838,7 @@
     <visual>
       <origin rpy="-1.570796327 0 1.570796327" xyz="0.007 -0.0485 0.0175" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/radar_camera_bracket_nut.stl?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/radar_camera_bracket_nut.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -2862,7 +2862,7 @@
     <visual>
       <origin rpy="1.57079 0 1.57079" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_bracket_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_bracket_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -2911,7 +2911,7 @@
     <visual>
       <origin rpy="-1.570796327 0 1.570796327" xyz="0.007 -0.0485 0.0175" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/radar_camera_bracket_nut.stl?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/radar_camera_bracket_nut.stl" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -2935,7 +2935,7 @@
     <visual>
       <origin rpy="1.57079 0 1.57079" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_bracket_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_bracket_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -2954,7 +2954,7 @@
     <visual>
       <origin rpy="1.5708 0 -1.5708" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/OS0.dae?ref_type=heads" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/OS0.dae" />
       </geometry>
     </visual>
     <collision>
@@ -3104,13 +3104,13 @@
     <collision name="nominal_implement_camera_mount_front_right_collision">
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -3218,13 +3218,13 @@
     <collision name="nominal_implement_camera_mount_front_left_collision">
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -3332,13 +3332,13 @@
     <collision name="nominal_implement_camera_mount_rear_collision">
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/ark_cam_basic_red.dae?ref_type=heads" scale="0.001 0.001 0.001" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/ark_cam_basic_red.dae" scale="0.001 0.001 0.001" />
       </geometry>
     </visual>
   </link>
@@ -3453,7 +3453,7 @@
     <visual name="nominal_implement_stereo_zed2x_rear_visual">
       <origin rpy=" 0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/zed2i.stl?ref_type=heads" scale="1 1 1" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/zed2i.stl" scale="1 1 1" />
       </geometry>
     </visual>
   </link>
@@ -3583,7 +3583,7 @@
     <visual name="nominal_implement_radar_front_right_visual">
       <origin rpy=" 0 1.57079 -1.57079" xyz="0 -0.002 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/smartmicro_type169.dae?ref_type=heads" scale="1.0 1.0 1.0" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/smartmicro_type169.dae" scale="1.0 1.0 1.0" />
       </geometry>
     </visual>
   </link>
@@ -3672,7 +3672,7 @@
     <visual name="nominal_implement_radar_front_left_visual">
       <origin rpy=" 0 1.57079 -1.57079" xyz="0 -0.002 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/smartmicro_type169.dae?ref_type=heads" scale="1.0 1.0 1.0" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/smartmicro_type169.dae" scale="1.0 1.0 1.0" />
       </geometry>
     </visual>
   </link>
@@ -3761,7 +3761,7 @@
     <visual name="nominal_implement_radar_rear_visual">
       <origin rpy=" 0 1.57079 -1.57079" xyz="0 -0.002 0" />
       <geometry>
-        <mesh filename="https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/meshes/smartmicro_type169.dae?ref_type=heads" scale="1.0 1.0 1.0" />
+        <mesh filename="https://raw.githubusercontent.com/CM134/urdf-test/main/meshes/smartmicro_type169.dae" scale="1.0 1.0 1.0" />
       </geometry>
     </visual>
   </link>

@@ -68,7 +68,7 @@ def create_remote_urdf(root, urdf_name):
     # shutil.copyfile(urdf_path, remote_urdf_path)
 
     # remote url
-    remote_url_base = "https://gitlab.com/agrirobot_public/remote_urdf/-/raw/main/"
+    remote_url = "https://raw.githubusercontent.com/CM134/urdf-test/main/"
 
     # Find all the mesh tags in the URDF file
     mesh_tags = root.findall(".//mesh")
@@ -91,15 +91,10 @@ def create_remote_urdf(root, urdf_name):
         # Copy the mesh file to the meshes directory
         shutil.copyfile(mesh_path, new_mesh_path)
 
-        # Construct the remote url for the mesh file
-        remote_url = (
-            remote_url_base
-            + os.path.relpath(new_mesh_path, WORK_DIR)
-            # + "?ref_type=heads"
-        )
-
         # Update the filename attribute of the mesh tag to point to the new location of the mesh file
-        mesh_tag.attrib["filename"] = remote_url
+        mesh_tag.attrib["filename"] = remote_url + os.path.relpath(
+            new_mesh_path, WORK_DIR
+        )
 
     # Write the updated URDF file to disk
     tree = ET.ElementTree(root)
